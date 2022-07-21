@@ -1,5 +1,5 @@
 module.exports = {
     images: {
-      domains: ['headlesswpnext.local'],
+      domains: ['test.local'],
     },
   }

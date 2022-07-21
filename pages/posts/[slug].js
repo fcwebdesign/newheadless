@@ -16,7 +16,7 @@ export default function Post( data ){
 
 export async function getStaticProps(context) {
 
-    const res = await fetch('http://headlesswpnext.local/graphql', {
+    const res = await fetch('http://test.local/graphql', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -53,7 +53,7 @@ export async function getStaticProps(context) {
 
 export async function getStaticPaths() {
 
-    const res = await fetch('http://headlesswpnext.local/graphql', {
+    const res = await fetch('http://test.local/graphql', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
